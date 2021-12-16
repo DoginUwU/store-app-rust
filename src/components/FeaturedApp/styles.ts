@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Container = styled.div`
   width: 100%;
@@ -59,4 +59,6 @@ const Title = styled.h1`
   font-weight: 400;
 `;
 
-export { Container, Background, InfoContainer, Logo, Title };
+export {
+  Container, Background, InfoContainer, Logo, Title,
+};

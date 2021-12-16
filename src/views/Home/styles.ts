@@ -66,4 +66,6 @@ const Item = styled(Link)`
   }
 `;
 
-export { Container, Downloads, Items, Item };
+export {
+  Container, Downloads, Items, Item,
+};

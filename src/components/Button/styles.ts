@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Color from "color";
+import styled from 'styled-components';
+import Color from 'color';
 
 const Container = styled.button`
     width: 100%;
@@ -12,7 +12,7 @@ const Container = styled.button`
     padding: 0.6em 1em;
 
     &:hover {
-        background: ${Color("#0064fe").lighten(0.2).string()};
+        background: ${Color('#0064fe').lighten(0.2).string()};
     }
 `;
 

@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 type NavProps = {
     active?: boolean;
@@ -40,7 +40,7 @@ const Nav = styled(Link)<NavProps>`
   cursor: pointer;
   transition: all 0.2s;
   font-size: 0.9em;
-  background: ${(props) => (props.active ? "#035ae1" : "transparent")};
+  background: ${(props) => (props.active ? '#035ae1' : 'transparent')};
   color: #fff;
   text-decoration: none;
 
@@ -67,4 +67,6 @@ const NavTip = styled.span`
   margin-left: auto;
 `;
 
-export { Container, NavContainer, Nav, Divider, NavTip };
+export {
+  Container, NavContainer, Nav, Divider, NavTip,
+};

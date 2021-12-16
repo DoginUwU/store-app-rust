@@ -1,13 +1,12 @@
-import { useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
-import Menu from "./components/Menu"
-import { AppProvider } from "./hooks/useApps";
-import Router from "./routes/Router"
-import GlobalStyle from "./styles/globalStyles"
-import { checkIfBackendIsValid } from "./utils/backend";
+import { useEffect } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Menu from './components/Menu';
+import { AppProvider } from './hooks/useApps';
+import Router from './routes/Router';
+import GlobalStyle from './styles/globalStyles';
+import { checkIfBackendIsValid } from './utils/backend';
 
-function App() {
-
+const App = function () {
   useEffect(() => {
     checkIfBackendIsValid();
   }, []);
@@ -23,6 +22,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
+};
 
-export default App
+export default App;

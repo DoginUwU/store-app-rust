@@ -5,6 +5,8 @@ interface Application {
   url: string;
   runSetup: string;
   icon: string;
+  downloads: number;
+  stars: number;
   createdAt: string;
   updatedAt: string;
 }

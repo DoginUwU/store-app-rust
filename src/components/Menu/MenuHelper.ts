@@ -1,22 +1,22 @@
-import { RiDownloadLine, RiHomeLine, RiShieldCheckLine } from "react-icons/ri";
+import { RiDownloadLine, RiHomeLine, RiShieldCheckLine } from 'react-icons/ri';
 
 export const MENU_ITEMS = [
   {
-    name: "Inicio",
+    name: 'Inicio',
     icon: RiHomeLine,
-    path: "/",
+    path: '/',
   },
   {
-    name: "Baixando",
+    name: 'Baixando',
     icon: RiDownloadLine,
-    path: "/downloading",
+    path: '/downloading',
     navTip: {
-        count: 3
-    }
+      count: 3,
+    },
   },
   {
-    name: "Biblioteca",
+    name: 'Biblioteca',
     icon: RiShieldCheckLine,
-    path: "/library",
-  }
+    path: '/library',
+  },
 ];

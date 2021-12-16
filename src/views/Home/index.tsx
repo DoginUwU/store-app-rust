@@ -1,12 +1,13 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from 'react';
 import Button from '../../components/Button';
 import FeaturedApp from '../../components/FeaturedApp';
 import { useApps } from '../../hooks/useApps';
 
-import { Container, Downloads, Items, Item } from "./styles";
+import {
+  Container, Downloads, Items, Item,
+} from './styles';
 
-const Home: React.FC = () => {
+const Home: React.FC = function () {
   const { getApplications, applications } = useApps();
 
   useEffect(() => {
@@ -35,6 +36,6 @@ const Home: React.FC = () => {
       </Downloads>
     </Container>
   );
-}
+};
 
 export default Home;
